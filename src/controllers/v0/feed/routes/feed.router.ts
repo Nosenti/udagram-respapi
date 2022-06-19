@@ -22,7 +22,6 @@ router.get('/', async (req: Request, res: Response) => {
 router.get('/:id', 
     async(req: Request, res: Response) => {
         try {
-            console.log('console 1 ................')
             const {id} = req.params;
             const item = await FeedItem.findOne({where:{id:id}});
             if(item){

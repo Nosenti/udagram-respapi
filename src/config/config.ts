@@ -10,7 +10,7 @@ export const config = {
     "aws_media_bucket": "udagram-nosenti-dev"
   },
   "jwt": {
-    "secret": " "
+    "secret": "helloworld"
   },
   "prod": {
     "username": "",
